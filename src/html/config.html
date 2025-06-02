@@ -1,16 +1,97 @@
-<section class="settings">
-  <h2 class="settings-heading">Settings for demo1</h2>
-  <p class="kintoneplugin-desc">This message is displayed on the app page after the app has been updated.</p>
-  <form class="js-submit-settings">
-    <p class="kintoneplugin-row">
-      <label for="message">
-        Message:
-        <input type="text" class="js-text-message kintoneplugin-input-text">
-      </label>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+<form class="js-submit-settings">
+  <div class="kintoneplugin-input-outer container">
+    <div id="label-show-title">
+      <label for="select_field_column">Test<span class="kintoneplugin-require"></span></label>
+    </div>
+    <div>
+      <table class="kintoneplugin-table" id="kintoneplugin-setting-space">
+        <thead>
+          <tr>
+            <th class="kintoneplugin-table-th-blankspace"></th>
+            <th class="kintoneplugin-table-th" id="kintoneplugin-table-th-table"></th>
+            <th class="kintoneplugin-table-th-blankspace"></th>
+          </tr>
+        </thead>
+        <tbody id="kintoneplugin-setting-tspace">
+          <tr class="table-space" hidden>
+            <td>
+              <div class="drag-icon">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+            </td>
+            <td id="td-table-space-prompt-template-button">
+              <div class="row">
+
+
+
+                <div class="kintoneplugin-table-td-control">
+                  <label for="title-field" style="font-size: 14px;">Button<span
+                      class="kintoneplugin-require"></span></label>
+                  <div class="kintoneplugin-input-outer">
+                    <input type="text" class="kintoneplugin-input-text labelForButton" />
+                  </div>
+                </div>
+
+                <div class="kintoneplugin-table-td-control" id="">
+                  <label for="select_field_column" style="font-size: 14px;">Field A<span
+                      class="kintoneplugin-require">*</span></label>
+                  <div class="kintoneplugin-select-outer">
+                    <div class="kintoneplugin-select">
+                      <select class="type-select">
+                        <option value="-----">-----</option>
+                        <option value="aaa">aaa</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="kintoneplugin-table-td-control" id="">
+                  <label for="select_field_column" style="font-size: 14px;">Field B<span
+                      class="kintoneplugin-require">*</span></label>
+                  <div class="kintoneplugin-select-outer">
+                    <div class="kintoneplugin-select">
+                      <select class="type-select">
+                        <option value="-----">-----</option>
+                        <option value="bbb">bbb</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="kintoneplugin-table-td-control" id="">
+                  <label for="select_field_column" style="font-size: 14px;">Condition<span
+                      class="kintoneplugin-require">*</span></label>
+                  <div class="kintoneplugin-select-outer">
+                    <div class="kintoneplugin-select">
+                      <select class="store-field-select">
+                        <option value="-----">-----</option>
+                        <option value="aaa">aaa</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </td>
+            <td class="kintoneplugin-table-td-operation operation-column">
+              <br>
+              <div class="button-add-remove-row-table-spaceForPrompt">
+                <button type="button" class="kintoneplugin-button-add-row-image addRow"></button>
+                <button type="button" class="kintoneplugin-button-remove-row-image removeRow"></button>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+    <p class="kintoneplugin-row" id="button-action">
+      <button type="button" class="js-save-button kintoneplugin-button-dialog-ok" id="button_save">Save</button>
+      <button type="button" class="js-cancel-button kintoneplugin-button-dialog-cancel cancel"
+        id="cancel">Cancel</button>
     </p>
-    <p class="kintoneplugin-row">
-        <button type="button" class="js-cancel-button kintoneplugin-button-dialog-cancel">Cancel</button>
-        <button class="kintoneplugin-button-dialog-ok">Save</button>
-    </p>
-  </form>
-</section>
+  </div>
+</form>
