@@ -28,31 +28,34 @@
                     <td>
                       <div class="row">
                         <div class="kintoneplugin-table-td-control">
-                          <label for="title-field" style="font-size: 14px;">Button<span
-                              class="kintoneplugin-require"></span></label>
+                          <label for="bunttonName" style="font-size: 14px;">Button<span class="kintoneplugin-require"></span></label>
                           <div class="kintoneplugin-input-outer">
-                            <input type="text" class="kintoneplugin-input-text labelForButton" />
+                            <input type="text" id="bunttonName" class="kintoneplugin-input-text labelForButton" />
                           </div>
                         </div>
 
-                        <div class="kintoneplugin-table-td-control" id="">
-                          <label for="select_field_column" style="font-size: 14px;">Field A<span
-                              class="kintoneplugin-require">*</span></label>
+                        <div class="kintoneplugin-table-td-control">
+                          <label for="appId" style="font-size: 14px;">App ID<span class="kintoneplugin-require"></span></label>
+                          <div class="kintoneplugin-input-outer">
+                            <input type="text" id="appId" class="kintoneplugin-input-text labelForButton" />
+                          </div>
+                        </div>
+
+                        <div class="kintoneplugin-table-td-control">
+                          <label for="fieldA" style="font-size: 14px;">Field A  <span class="kintoneplugin-require">*</span></label>
                           <div class="kintoneplugin-select-outer">
                             <div class="kintoneplugin-select">
-                              <select class="type-select">
+                              <select class="type-select" id="fieldA">
                                 <option value="-----">-----</option>
-                                <option value="aaa">aaa</option>
                               </select>
                             </div>
                           </div>
                         </div>
-                        <div class="kintoneplugin-table-td-control" id="">
-                          <label for="select_field_column" style="font-size: 14px;">Field B<span
-                              class="kintoneplugin-require">*</span></label>
+                        <div class="kintoneplugin-table-td-control">
+                          <label for="fieldB" style="font-size: 14px;">Field B<span class="kintoneplugin-require">*</span></label>
                           <div class="kintoneplugin-select-outer">
                             <div class="kintoneplugin-select">
-                              <select class="type-select">
+                              <select class="type-select" id="fieldB">
                                 <option value="-----">-----</option>
                                 <option value="bbb">bbb</option>
                               </select>
@@ -60,19 +63,17 @@
                           </div>
                         </div>
 
-                        <div class="kintoneplugin-table-td-control" id="">
-                          <label for="select_field_column" style="font-size: 14px;">Condition<span
-                              class="kintoneplugin-require">*</span></label>
+                        <div class="kintoneplugin-table-td-control">
+                          <label for="condition" style="font-size: 14px;">Condition<span class="kintoneplugin-require">*</span></label>
                           <div class="kintoneplugin-select-outer">
                             <div class="kintoneplugin-select">
-                              <select class="store-field-select">
+                              <select class="store-field-select" id="condition">
                                 <option value="-----">-----</option>
                                 <option value="aaa">aaa</option>
                               </select>
                             </div>
                           </div>
                         </div>
-
                       </div>
                     </td>
                     <td class="kintoneplugin-table-td-operation operation-column">
@@ -98,7 +99,7 @@
 
 
     <p class="kintoneplugin-row" id="button-action">
-      <button type="button" class="js-save-button kintoneplugin-button-dialog-ok" id="button_save">Save</button>
+      <button type="button" class="js-save-button kintoneplugin-button-dialog-ok" id="submit-button">Save</button>
       <button type="button" class="js-cancel-button kintoneplugin-button-dialog-cancel cancel"
         id="cancel">Cancel</button>
     </p>
