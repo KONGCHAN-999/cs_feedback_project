@@ -59,7 +59,7 @@ tbody tr {
 
 .button-add-remove-row-table-spaceForPrompt {
   display: flex;
-  margin-top: 20px;
+  margin-top: 2.6rem;
 }
 
 .validation-error {
@@ -104,7 +104,7 @@ tbody tr {
 }
 
 #kintoneplugin-setting-space .kintoneplugin-table-td-operation.operation-column {
-  width: 100px !important;
+  width: 100% !important;
 }
 
 .drag-icon {

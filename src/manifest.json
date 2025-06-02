@@ -19,9 +19,7 @@
       "js/jquery-2.2.4.min.js",
       "js/jquery-ui.min.js",
       "js/sweetalert2.all.js",
-      "https://unpkg.com/boxicons@2.1.4/dist/boxicons.js",
       "https://cdn.jsdelivr.net/npm/sweetalert2@11",
-      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css",
       "js/config.js"
     ],
     "css": [
